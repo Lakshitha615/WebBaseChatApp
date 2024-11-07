@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boder-top{
+            position: absolute;
+            margin: 20px;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 5px;
+            background: linear-gradient(to right, #171618 ,#fcc23f);
+            animation: animate-border-top 2s linear infinite;
+
+        }
+        @keyframes animate-border-top{
+            0% {
+                transform: translate(-100%);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Boder </h1>
+    <span class="boder-top"></span>
+</body>
+</html>
